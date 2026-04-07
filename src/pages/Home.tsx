@@ -13,9 +13,9 @@ function Home() {
       <section id="projects" style={styles.section}>
         <h2>Projects</h2>
         <div style={styles.grid}>
-          <div style={styles.card}>Coming Soon</div>
-          <div style={styles.card}>Coming Soon</div>
-          <div style={styles.card}>Coming Soon</div>
+          <div style={styles.card}>Project 1</div>
+          <div style={styles.card}>Project 2</div>
+          <div style={styles.card}>Project 3</div>
         </div>
       </section>
 
@@ -23,15 +23,35 @@ function Home() {
       <section id="about" style={styles.section}>
         <h2>About</h2>
         <p style={styles.text}>
-         Full-Stack Engineer with 5 years of experience building scalable web and mobile applications. Passionate about product design and currently expanding into Data Science and AI / ML.
+          Full-Stack Engineer with 5 years of experience building scalable web
+          and mobile applications. Passionate about product design and currently
+          expanding into Data Science and AI / ML.
         </p>
       </section>
 
       {/* CONTACT */}
+      {/* CONTACT */}
       <section id="contact" style={styles.section}>
         <h2>Contact</h2>
-        <p>Email: paromitasg.cse@gmail.com</p>
-        <p>GitHub: github.com/paromita-sg</p>
+
+        <p>
+          Email:{" "}
+          <a href="mailto:paromitasg.cse@gmail.com" style={styles.link}>
+            paromitasg.cse@gmail.com
+          </a>
+        </p>
+
+        <p>
+          GitHub:{" "}
+          <a
+            href="https://github.com/paromita-sg"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={styles.link}
+          >
+            github.com/paromita-sg
+          </a>
+        </p>
       </section>
     </div>
   );
